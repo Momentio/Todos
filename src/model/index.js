@@ -2,8 +2,8 @@
 import thunkMiddleware from "redux-thunk";
 import { createStore, applyMiddleware } from 'redux';
 import todos from "../components/Todos/model";
-import GlobalModel from "./GlobalModel";
-
+import GlobalModel from "global-model";
+console.log(GlobalModel)
 const reducer = (state, action) => {
     console.log(action);
     

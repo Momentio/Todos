@@ -1,4 +1,4 @@
-import GlobalModel from "../../../model/GlobalModel";
+import GlobalModel from "global-model";
 
 export default (parrentPath = "", name = "todos") => {
     return new GlobalModel(
