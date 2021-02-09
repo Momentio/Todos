@@ -1,0 +1,52 @@
+.todos{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px;
+    gap: 24px;
+}
+
+.todos__list{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px;
+    gap: 32px;
+    list-style: none;
+    align-self: center;
+}
+
+.todos__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todos__toolbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.todo{
+    padding: 8px 16px;
+    border: black solid 1px;
+    width: 300px;
+    gap: 24px;
+    text-align: center;
+}
+
+.todo__title{
+    text-decoration: line-through;
+}
+
+.todo__title.todo__title--actived{
+    text-decoration: none;
+}
+
+.todo__header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+}
